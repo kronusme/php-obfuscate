@@ -1,0 +1,23 @@
+{
+    "name": "kronusme/php-obfuscate",
+    "description": "Small tool for PHP-code obfuscating",
+    "keywords": ["php", "obfuscate"],
+    "type": "tool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kronusme"
+        }
+    ],
+    "require": {
+        "nikic/php-parser": "~1.0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "autoload": {
+        "classmap" : [
+            "includes/"
+        ]
+    }
+}
